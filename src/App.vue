@@ -2,7 +2,7 @@
   <div class="wrapper">
     <div class="logo">
       <RouterLink to="/">
-        <img src="@assets/image/logo.png" alt="">
+    
       </RouterLink>
     </div>
     <div class="account">
