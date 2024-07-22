@@ -1,0 +1,44 @@
+.board_admin{
+    width: 100%;
+}
+.title{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+thead{
+    text-align: center;
+}
+tbody h1{
+    font-size: 1.2rem;
+    width: 10rem;
+    margin: 0;
+}
+td p{
+    width: 20rem;
+    margin: 0;
+}
+.action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transition: .3s linear;
+  }
+.action-container button{
+    border: 1px solid;
+    transition: .5s linear;
+}
+.action-container button:hover {
+    background-color: red;
+    transform: scale(1.2);
+  }
+  .action-container button:nth-child(1):hover{
+    background-color: green;
+    transform: scale(1.2);
+  }

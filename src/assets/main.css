@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Noto+Serif&family=PT+Serif:wght@700&family=Roboto+Condensed&display=swap');
+@import './base.css';
+@import './navbar.css';
+@import './account.css';
+@import './product.css';
+@import './order_list.css';
+@import './Update.css';
+@import './delete.css';
+@import './create.css';
+@import './graph.css';
+@import './login.css';
+@import './banner.css';
+#app {
+  font-weight: normal;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}

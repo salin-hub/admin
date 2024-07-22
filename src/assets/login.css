@@ -1,0 +1,71 @@
+.login_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    background-image: url(../assets/image//360_F_311507184_0mErEL2kUw7z4AbXhsxPjFE7hQnY7BLy.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.form{
+    border: 1px solid rebeccapurple;
+    border-radius: .4rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25rem;
+    height: 30rem;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.login_image{
+    padding: 1rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+.login_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.title p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: .5rem;
+    color: rgb(202, 205, 207);
+}
+.input_feil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.input_feil input{
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: .3rem;
+    border: none;
+    outline: none;
+    padding-left: .5rem;
+}
+.input_feil button{
+    width: 8rem;
+    height: 2rem;
+    border: none;
+    border-radius: .3rem;
+    margin-top: 3rem;
+    transition: .3s linear;
+}
+.input_feil button:hover{
+    background-color: aqua;
+    transform: scale(1.1);
+}

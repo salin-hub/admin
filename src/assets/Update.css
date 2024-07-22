@@ -1,0 +1,72 @@
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+ 
+  .search-bar {
+     height: 3rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 20px;
+  }
+  .search-style{
+     background-color: white ;
+     border-radius: .5rem;
+     width: 35rem;
+     display:flex ;
+     align-items: center;
+     border: .1px solid;
+     padding-left: 10px;
+  }
+  .search-bar input{
+     width: 30rem;
+     height: 2.5rem;
+     font-size: 1.3rem;
+     outline: none;
+     border: none;
+     margin: 0;
+     padding: 0;
+  }
+  .line {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  .popup_update {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  border-radius: .5rem;
+    background-color: #fefefe;
+    padding: 1rem 2rem 2rem 2rem ;
+    border: 1px solid #888;
+    width: 80%;
+}
+.action-container-update {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transition: .3s linear;
+}
+.action-container-update button{
+  border: 1px solid;
+  transition: .5s linear;
+}
+.action-container-update button:hover {
+  background-color: rgb(7, 251, 7);
+  transform: scale(1.2);
+  color: white;
+}

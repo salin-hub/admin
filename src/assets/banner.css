@@ -1,0 +1,21 @@
+.action_button{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+.image_thumnail{
+    display: flex;
+    justify-content: center;
+}
+.title_txt{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.addbanners{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
